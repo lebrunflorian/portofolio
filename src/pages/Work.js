@@ -28,6 +28,23 @@ export default function Work() {
     homeAnimation();
   }, []);
 
+  /*
+  <div className="menu__item">
+        <a
+          href="http://3024284f74.testurl.ws/web/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="menu__item-link"
+        >
+          Pasquet
+        </a>
+        <img
+          className="menu__item-img"
+          src={require("../img/pasquet.jpg")}
+          alt="Pasquet Menuiseries"
+        />
+      </div>
+      */
   return (
     <div className="menu container-text">
       <div className="menu__item">
@@ -60,21 +77,7 @@ export default function Work() {
           alt="Entre Autre"
         />
       </div>
-      <div className="menu__item">
-        <a
-          href="http://3024284f74.testurl.ws/web/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="menu__item-link"
-        >
-          Pasquet
-        </a>
-        <img
-          className="menu__item-img"
-          src={require("../img/pasquet.jpg")}
-          alt="Pasquet Menuiseries"
-        />
-      </div>
+
       <div className="menu__item">
         <a
           href="https://www.spinelite.fr/"
